@@ -10,7 +10,7 @@ export default function ScenePage() {
   return (
     <>
       <button
-        style={{ position: 'fixed', top: 0, left: 0, zIndex: 50 }}
+        className="fixed top-2 left-2 z-10 text-white"
         onClick={() => {
           setScene(s => (s === 'intro-2' ? 'intro-1' : 'intro-2'));
         }}
